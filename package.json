@@ -1,6 +1,9 @@
 {
   "name": "my-ng-demo",
+  "autor": "<%=author%>",
+  "description": "<%=description%>",
   "version": "0.0.0",
+  "license": "<%=license%>",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open",
@@ -9,7 +12,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "private": "<%=private%>",
   "dependencies": {
     "@angular/animations": "~10.0.6",
     "@angular/common": "~10.0.6",
